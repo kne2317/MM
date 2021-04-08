@@ -1,0 +1,16 @@
+body{
+    overflow: hidden
+}
+#bar_right{
+    float:left;
+    background-color: black;
+    width: 90px;
+    height: 1080px;
+}
+#bar_right a{
+    
+    margin-top: 20px;
+}
+#bar_right img{
+    padding:10px;
+}
