@@ -8,7 +8,7 @@ body{
 }
 #login{
     float: right;
-    margin-right:100px;
+    margin-right:360px;
     color: black;
 }
 nav{
@@ -20,40 +20,33 @@ nav{
     display: flex;
     justify-content: center;
 }
-li{
+nav li{
     float: left;
     display: flex;
     font-size: 18px;
-    margin-left: 150px;
+    margin-left: 160px;
     line-height: 65px;
-    margin-right: 150px;
+    margin-right: 160px;
 }
-li a{
+nav li a{
     color:black;
 }
-li a:hover{
+nav li a:hover{
     color:#00793F;
     font-size: 24px;
     font-weight: bold;
 }
 .bxslider img{
-    width: 1920px;
-    height: 700px;
-    text-align: center;
-
+    width: 1200px;
+    height: 500px;
+    display: block; margin: 0px auto;
 }
 #gallery{
     width: 100%;
     display: flex;
     justify-content: center;
 
-    
 }
-.bxslider{
-    text-align: center;
-    margin-left: -150px  !important;
-}
-
 footer{
     width: 100%;
     height: 150px;
