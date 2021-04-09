@@ -1,0 +1,63 @@
+
+body{
+    width: 1920px;
+    overflow-x: hidden;
+}    
+#logo{
+    margin-top: 30px;
+}
+#login{
+    float: right;
+    margin-right:100px;
+    color: black;
+}
+nav{
+    border-top:1px solid gray;
+    border-bottom:1px solid gray;
+    width: 100%;
+    height: 70px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+li{
+    float: left;
+    display: flex;
+    font-size: 18px;
+    margin-left: 150px;
+    line-height: 65px;
+    margin-right: 150px;
+}
+li a{
+    color:black;
+}
+li a:hover{
+    color:#00793F;
+    font-size: 24px;
+    font-weight: bold;
+}
+.bxslider img{
+    width: 1920px;
+    height: 700px;
+    text-align: center;
+
+}
+#gallery{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    
+}
+.bxslider{
+    text-align: center;
+    margin-left: -150px  !important;
+}
+
+footer{
+    width: 100%;
+    height: 150px;
+    float: left;
+    bottom: 0;
+    background-color: black;
+}

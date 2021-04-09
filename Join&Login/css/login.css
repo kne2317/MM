@@ -1,0 +1,40 @@
+
+#logo{
+    margin-top:160px;
+    margin-bottom: 10px;
+    display:inline-block;
+    margin-bottom: 70px;
+}
+input{
+    width: 380px;
+    font-size: 21px;
+    height: 60px;
+    background-color: #f4f4f4;
+    border-radius: 12px;
+    border:0px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+
+}
+input:focus {outline:none;}
+input::placeholder {
+    color: rgba(0,0,0, 0.2);
+}
+
+button{
+    margin: 50px 0;
+    width: 380px;
+    height: 60px;
+    border-radius: 40px;
+    border:0px;
+    background-color: #00793F;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+#search_pw, #join{
+    color: rgba(0,0,0, 0.6);
+    font-size: 17px;
+    text-decoration: underline;
+}
