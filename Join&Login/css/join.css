@@ -1,0 +1,14 @@
+body{
+    width: 700px;
+}
+#logo{
+    margin: 20px;
+}
+input{
+    border:0px;
+    border-bottom: 1px solid #7c7c7c;
+    width: 100%;
+    padding:20px;
+    font-size: 20px;
+    margin-top: 20px;
+}
