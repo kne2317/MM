@@ -20,3 +20,9 @@ body{
     text-align: center;
     margin:0 auto;
 }
+input:focus{
+    outline:none;
+}
+button:focus{
+    outline:none;
+}
