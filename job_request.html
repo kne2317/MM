@@ -2,7 +2,7 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <link href="../common.css" rel="stylesheet" type="text/css" />
+    <link href="common.css" rel="stylesheet" type="text/css" />
     <link href="request.css" rel="stylesheet" type="text/css" />
     
 
@@ -10,5 +10,32 @@
 </head>
 <body>
     <a href="#" ><img src="img/logo.png" width="100px" id="logo"></a>
+    <form>
+        <input type="text" name="ceo_num" placeholder="사업자 번호">
+        <button type="button" class="btn" id="chid">조회</button>
+
+        <input type="text" name="major" placeholder="업종">
+        <input type="text" name="employee_num" placeholder="사원수(명) 현재 근무중인 사원수(4대보험 가입자 기준).">
+        <input type="text" name="adress" placeholder="주소(도로명 주소)">
+        <input type="text" name="sale" placeholder="매출규모(억)">
+        <input type="file" name="introduce" placeholder="기업소개">
+
+
+
+        <input type="text" name="name" placeholder="이름">
+
+        <input type="text" name="email" placeholder="Email">
+        <button type="button" class="btn" id="mailcode">인증메일전송</button>
+        <input type="text" name="code" placeholder="인증번호">
+
+        <input type="text" name="year" id="year" placeholder="입학년도">
+        <select name="major">
+            <option value="soft">뉴미디어 소프트웨어과</option>
+            <option value="web">뉴미디어 웹솔루션과</option>
+            <option value="design">뉴미디어 디자인과</option>
+       </select>
+       <br>
+        <button type="submit" class="joinbutton">Join</button>
+    </form>
 </body>
 </html>
