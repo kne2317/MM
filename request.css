@@ -52,16 +52,6 @@ select{
     position:absolute;
     z-index: 3;
 }
-.where {
-  display: block;
-  margin: 25px 15px;
-  font-size: 11px;
-  color: #000;
-  text-decoration: none;
-  font-family: verdana;
-  font-style: italic;
-} 
-
 .filebox input[type="file"] {
   position: absolute;
   width: 1px;
