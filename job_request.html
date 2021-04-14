@@ -2,9 +2,17 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+
     <link href="common.css" rel="stylesheet" type="text/css" />
     <link href="request.css" rel="stylesheet" type="text/css" />
     <script src="request.js"></script>
+
+
+
 
     <title>MM - 취업의뢰</title>
 
@@ -20,14 +28,15 @@
         <input type="text" name="adress" placeholder="주소(도로명 주소)">
         <input type="text" name="sale" placeholder="매출규모(억)">
 
-        <input type="file" name="introduce" placeholder="기업소개">
 
-        <div class="filebox bs3-primary">
-            <input class="upload-name" value="파일선택" disabled="disabled">
+        <div class="filebox">
+            <input class="upload-name" value="기업소개" disabled="disabled">
 
-            <label for="ex_filename">업로드</label> 
+            <label for="ex_filename">파일첨부</label> 
             <input type="file" id="ex_filename" class="upload-hidden"> 
           </div>
+
+          <input type="text" name="role" placeholder="담당업무">
 
        <br>
         <button type="submit" class="request_btn">의뢰하기</button>
