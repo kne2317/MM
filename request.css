@@ -81,7 +81,6 @@ select{
   margin-top: 20px;
 }
 
-/* named upload */
 .filebox .upload-name {
   display: inline-block;
   font-size: inherit;
@@ -103,4 +102,7 @@ select{
 .filebox label {
   color: #fff;
   background-color: #00793F;
+}
+input[type="checkbox"]{
+
 }
