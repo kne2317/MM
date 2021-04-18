@@ -18,15 +18,13 @@ nav{
     height: 70px;
     margin-top: 10px;
     display: flex;
-    justify-content: center;
 }
 nav li{
+    list-style: none;
+    line-height: 80px;
+    text-align: center;
     float: left;
-    display: flex;
-    font-size: 18px;
-    margin-left: 160px;
-    line-height: 65px;
-    margin-right: 160px;
+    flex:1;
 }
 nav li a{
     color:black;

@@ -1,41 +1,11 @@
-/* 상단 메뉴 css */
-#logo {
-    margin-left: 0px;
-    width:90px;
-    height: 60px;
-    vertical-align: middle;
-}
-.Menu{   
-    margin-bottom: 0px;
-    text-align: left;
-    padding-bottom: 7px;
-    font-weight: bold;
-    border-bottom: 2px solid  rgb(195, 190, 190);
-}
-.Menu li{
-
-    list-style: none;
-    padding-right: 250px;
-    padding-left: 30px;
-    font-size: 20px;
-    display: inline;
-}
-.Menu li a:link { 
-    text-decoration: none;
-    color: black;
-}
-.Menu li a:visited { 
-    text-decoration: none;
-    color: black;
-}
 
 /* 검색바 css */
 .search {
     margin-top: 70px;
     margin-left: 500px;
     height: 50px;
-    width: 1250px;
-    border-radius: 32px;
+    width: 1200px;
+    border-radius: 40px;
     background: rgb(236, 236, 236);
 }
 .search input{
@@ -43,55 +13,22 @@
     line-height: 45px;
     vertical-align: middle;
     font-size: 17px;
-    margin-left: 30px;
-    width: 1150px;
+    width: 1100px;
     border : 0px;
+    border-radius: 40px;
     outline: none;
     background: rgb(236, 236, 236);
 
 }
 #search_btn{
-    
     padding-left: 5px;
     line-height: 100px;
     vertical-align: middle;
-    width: 30px;
-    height:30px;
     border : 0px;
     background: rgb(236, 236, 236);
 }
 
-/* 사이드 메뉴 css */
-.sideMenu {
 
-    float: left;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 300px;
-    height: 883px;
-    background-color: rgb(255, 255, 255);
-    box-shadow: 5px 0px 5px rgb(233, 233, 233);
-    border-top: 1px solid  rgb(223, 223, 223);
-    border-right: 1px solid  rgb(223, 223, 223);
-   
-}
-.sideMenu li{
-    
-    font-weight: 900;
-    font-size: 25px;
-    margin-top: 30px;
-    padding: 35px;
-}
-.sideMenu li a:link{
-
-    text-decoration: none;
-    color: rgb(139, 139, 139);
-}
-.sideMenu li a:visited{
-    text-decoration: none;
-    color: rgb(122, 122, 122);
-}
 #request {
     font-size: 30px;
 }
@@ -104,30 +41,27 @@
 
 /* 공지사항 css */
 .Notice_borad div{
-
     cursor: pointer;
-    line-height: 40px;
-    padding: 10px;
-    margin-top: 28px;
+    line-height: 60px;
+    margin-top: 35px;
     margin-left: 500px;
-    height: 50px;
-    width: 1300px;
-    border-radius: 10px;
+    height: 60px;
+    width: 1200px;
+    border-radius: 15px;
     background-color: white;
-    box-shadow: 0px 0px 5px gray;
+    box-shadow: 0px 1px 6px gray;
+    display: flex;
 }
 .Notice_borad div span{
-    font-weight: 530;
     vertical-align: middle;
-    margin-right :120px;
-    margin-left: 120px;
+    flex: 1;
 }
 
 /* 페이지 이동 css */
 .Page {
-    margin-top: 90px;
-    margin-left: 950px;
-
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-right: -270px;
 }
 .Page a{
     font-weight: bold;
@@ -141,4 +75,3 @@
     text-decoration: none;
     color: black;
 }
-

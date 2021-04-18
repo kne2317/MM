@@ -4,37 +4,37 @@
     <meta charset="UTF-8">
     <link href="../common.css" rel="stylesheet" type="text/css" />
     <link href="board1.css" rel="stylesheet" type="text/css" />
-    
+    <link href="../headerNav.css" rel="stylesheet" type="text/css" />
+    <link href="../sideNav.css" rel="stylesheet" type="text/css" />
 
     <title>MM - Login</title>
 </head>
     <body>
         <!-- 상단 메뉴 div -->
         <div>
-            
             <ul class="Menu">
-                <li><a href="#"><img src="../img/logo.png" id="logo"></a></li>
-                <li><a href="#">취업 게시판</a></li>
-                <li><a href="#">FAQ</a></li>
-                <li><a href="#">Q&A</a></li>
-                <li><a href="#">코딩 테스트</a></li>
+                <li><a href="../index.html"><img src="../img/logo.png" id="logo" width="90px"></a></li>
+                <li><a href="board1.html">취업 게시판</a></li>
+                <li><a href="../FQ/FAQ.html">FAQ</a></li>
+                <li><a href="../FQ/Q&A.html">Q&A</a></li>
+                <li><a href="../CodingTest/CodingTest.html">코딩 테스트</a></li>
             </ul>
         </div>
 
-        <!-- 사이드 메뉴 nav -->
+       <!-- 사이드 메뉴 nav -->
         <nav>
             <ul class="sideMenu">
-                <li id="request"><a href="#">취업 의뢰</a></li>
-                <li><a href="#">취업 현황</a></li>
-                <li><a href="#">사용 언어</a></li>
-                <li><a href="#">공지사항</a></li>
+                <li><a href="board1.html" >취업 의뢰</a></li>
+                <li><a href="board2.html">취업 현황</a></li>
+                <li><a href="board3.html">사용 언어</a></li>
+                <li><a href="board4.html"style="color: #00793F;font-size: 30px;">공지사항</a></li>
             </ul>
         </nav>
 
-        <!-- 검색바 div -->
-        <div class="search">
+         <!-- 검색바 div -->
+         <div class="search">
             <input type="text" placeholder=" 검색어를 입력하세요">
-            <a href="#"><img src="../img/searchBtn.png" id="search_btn"></a>
+            <a href="#"><img src="../img/search.png" id="search_btn" width="30px"></a>
         </div>
 
         <!-- 취업 의뢰 div -->
@@ -58,9 +58,12 @@
             <a href="#">&gt;</a>
         </div>
 
-        <!-- 하단의 계정 img div-->
-        <div style="position: fixed; right: 25px; bottom: 20px;">
-            <a href="#"><img src="../img/account.png" width="117px" height="100px" style="float: right;"></a>
+         <!-- 하단의 글추가, 계정 img div -->
+         <div style="right: 160px;" class="fix_ele">
+            <a href="#"><img src="../img/pencil.png" width="60px" style="float: right;"></a>
+        </div>
+        <div style="right: 40px;"class="fix_ele">
+            <a href="#"><img src="../img/user_white.png" width="60px" style="float: right;"></a>
         </div>
     </body>
 </html>
