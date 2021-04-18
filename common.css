@@ -29,3 +29,10 @@ button:focus{
 select:focus{
     outline: none;
 }
+.fix_ele{
+    bottom: 30px;
+    position: fixed; 
+    background-color: #00793F;
+    padding:15px;
+    border-radius: 100px;
+}
