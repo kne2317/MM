@@ -25,10 +25,6 @@ html{height: 100%;}
     margin-top: 50px;
     padding: 40px;
 }
-.sideMenu li a:link{
-    text-decoration: none;
-    color: rgb(139, 139, 139);
-}
 .sideMenu a{
     color: #7B7B7B;
 }
